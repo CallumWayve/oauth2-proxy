@@ -13,6 +13,7 @@
 - [#3304](https://github.com/oauth2-proxy/oauth2-proxy/pull/3304) fix: added conditional so default is not always set and env vars are honored fixes 3303 (@pixeldrew)
 - [#3264](https://github.com/oauth2-proxy/oauth2-proxy/pull/3264) fix: more aggressively truncate logged access_token (@MartinNowak / @tuunit)
 - [#3267](https://github.com/oauth2-proxy/oauth2-proxy/pull/3267) fix: Session refresh handling in OIDC provider (@gysel) 
+- [#3219](https://github.com/oauth2-proxy/oauth2-proxy/pull/3219) fix: escape OAuth state redirect URLs to preserve query parameters (@CallumWayve)
 
 # V7.13.0
 
